@@ -18,7 +18,7 @@ function timestart() {
             secondspan.textContent = s++;
         }
 
-        if (s === 61) {
+        if (s === 60) {
             s = 0;
             minutespan.textContent = m++;
 
@@ -30,7 +30,7 @@ function timestart() {
                 minutespan.textContent = m;
             }
         }
-        if (m === 61) {
+        if (m === 60) {
             m = 0;
             hourspan.textContent = h++;
             if (h < 10) {
