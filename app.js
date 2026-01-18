@@ -44,7 +44,7 @@ function timestart() {
         }
 
 
-    }, 1)
+    }, 1000)
 }
 
 
